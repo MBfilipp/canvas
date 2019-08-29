@@ -18,9 +18,9 @@ panel.addEventListener("click", buttonEvent);
 
 clearAll.addEventListener("click", clearEvent);
 
-canvas.addEventListener('mousedown', MouseDOWNEvent);
+canvas.addEventListener("mousedown", MouseDOWNEvent);
 
-canvas.addEventListener('mouseup', MouseUPEvent);
+canvas.addEventListener("mouseup", MouseUPEvent);
 
 canvas.addEventListener("mouseover", canvasCursorOver);
 
@@ -39,11 +39,11 @@ function fillBackgroundEvent() {
 }
 
 function canvasCursorOver() {
-    document.body.style.cursor = 'crosshair';
+    document.body.style.cursor = "crosshair";
 }
 
 function canvasCursorOut() {
-    document.body.style.cursor = 'default';
+    document.body.style.cursor = "default";
 
     // Fix bug
     canvas.onmousemove = null;
